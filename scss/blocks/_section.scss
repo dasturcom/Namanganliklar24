@@ -1,0 +1,97 @@
+.mainSection {
+    @include WightHeight(1200px, 133px);
+    margin: 22px auto 0;
+    background-color: $bgColor;
+    border-radius: 5px;
+}
+.Section {
+    display: flex;
+}
+.covid19 {
+    display: flex;
+}
+.imgCovid19 {
+    @include WightHeight(43px, 45px);
+    margin: 44px 0 0 35px;
+}
+.covid19Title {
+    @include WightHeight(255px, 50px);
+    margin: 42px 0 0 25px;
+    @include fonts(normal, 500, 20px, 24px)
+}
+.spanCovid19 {
+    @include WightHeight(2px, 74px);
+    display: block;
+    margin: 30px 0 0 35px;
+    background-color:  #EB5569;
+}
+
+//  Covid 19
+.imgCovid19-1 {
+    margin-top: 47px;
+    margin-left: 29px;
+    @include WightHeight(38px, 40px);
+}
+.covid19Title-1 {
+    margin-top: 41px;
+    margin-left: 17px;
+    @include WightHeight(161px, 52px);
+    color: #DB0000;
+    @include fonts(normal, 400, 18px, 21px);
+}
+
+.covid19Title-1 > span {
+    color: $colorBlac;
+    @include fonts(normal, 500, 25px, 21px);
+}
+.spanCovid19-1 {
+    @include WightHeight(2px, 49px);
+    display: block;
+    margin: 42px 0 0 42px;
+    background-color:  #F4CCD1;
+}
+
+// Covid 19
+
+.imgCovid19-2 {
+    margin-top: 48px;
+    margin-left: 29px;
+    @include WightHeight(38px, 40px);
+}
+.covid19Title-2 {
+    margin-top: 41px;
+    margin-left: 19px;
+    @include WightHeight(161px, 52px);
+    @include fonts(normal, 400, 18px, 21px,);
+    color: #05B135;
+}
+
+.covid19Title-2 span {
+    @include fonts(normal, 500, 25px, 21px,);
+    color: $colorBlac;
+}
+.spanCovid19-2 {
+    margin-top: 42px;
+    @include WightHeight(2px, 49px);
+    display: block;
+    background-color: #F4CCD1;
+}
+
+// Covid 19
+
+.imgCovid19-3 {
+    margin-top: 47px;
+    margin-left: 27px;
+    @include WightHeight(38px, 38px);
+}
+.covid19Title-3 {
+    margin-top: 41px;
+    margin-left: 19px;
+    @include WightHeight(161px, 52px);
+    @include fonts(normal, 400, 18px, 21px);
+}
+
+.covid19Title-3 span {
+    @include fonts(normal, 500, 25px, 21px);
+    display: block;
+}

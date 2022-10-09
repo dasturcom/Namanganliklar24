@@ -1,0 +1,40 @@
+.section5 {
+}
+.section5Container {
+    background-color: $bgColor;
+    display: flex;
+    border-radius: 5px;
+    padding-top: 37px;
+    padding-left: 19px;
+    align-items: center;
+    margin-bottom: 38px;
+}
+.section5-img {
+}
+.section5Box-text {
+    @include wight(100%, 526px);
+    margin-right: 63px;
+}
+.section5Title{
+    @include fonts(normal, 500, 24px, 28px);
+    color: #295093;
+}
+.section5-text{
+    @include fonts(normal, 500, 18px, 21px);
+    color: #333333;
+}
+.section5Img {
+    display: flex;
+}
+.section5ImgLink {
+    width: 162px;
+    height: 49px;
+    border-radius: 5px;
+    margin-right: 19px;
+    transition: all 0.3s linear;
+}
+
+.section5ImgLink:hover {
+    transform: scale(1.1);
+    box-shadow: 13px 13px 13px rgb(84, 84, 84);
+}

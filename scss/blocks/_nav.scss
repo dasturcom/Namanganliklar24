@@ -1,0 +1,60 @@
+.nav {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-container {
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    padding: 22px 24px;
+    background: $colorWihte;
+    box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+    border-radius: 5px;
+}
+.navLink {
+    @include fonts(normal, 500, 19px, 23px);
+    @include LinkResetList(none,  #515151d6);
+    transition: all 0.5s linear;
+}
+.navLink:hover {
+    color: $colorLogo
+}
+
+.reklama {
+    margin-top: 18px;
+}
+
+@include breakpoint-down(768px) {
+    .nav-container {
+        max-width: 768px;
+        width: 100%;
+        margin-top: 20px;
+        display: flex;
+        padding: 8px 10px;
+        background: $colorWihte;
+        box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+        border-radius: 5px;
+    }
+    .navLink {
+        @include reset-list;
+        @include fonts(normal, 400, 13px, 23px);
+        @include LinkResetList(none,  #515151);
+    }
+    
+    .reklama {
+        margin-top: 18px;
+    }
+}
+
+@include breakpoint-down(504px) {
+    .nav-container {
+        display: none;
+    }
+    
+    .reklama {
+       display: none;
+    }
+}

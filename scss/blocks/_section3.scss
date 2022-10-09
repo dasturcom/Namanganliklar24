@@ -1,0 +1,52 @@
+// .section3 {
+// }
+.section3Container {
+    background-color: $section3BgColor;
+    padding: 33px 20px 32px 34px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+    margin-bottom: 38px;
+}
+
+.section3Title {
+    @include reset-list;
+    display: flex;
+    align-items: center;
+    @include fonts(normal, 500, 20px, 24px);
+}
+
+.section3Title::before {
+    display: block;
+    width: 30px;
+    height: 30px;
+    content: '';
+    background-image: url(../../img/Qongiroq.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    margin-right: 20px;
+}
+.section3Btn {
+    cursor: pointer;
+    @include reset-list;
+    padding: 8px;
+    @include fonts(normal, 500, 20px, 24px);
+    color: $colorWihte;
+    background: linear-gradient(90deg, #FE5C28 0%, rgba(255, 139, 54, 0.9) 88.43%);
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: all 0.5s linear;
+}
+
+.section3Btn:hover {
+    @include reset-list;
+    padding: 8px;
+    @include fonts(normal, 500, 20px, 24px);
+    color: $colorWihte;
+    background: linear-gradient(90deg, rgba(255, 139, 54, 0.9) 0%, #FE5C28 88.43%);
+    border: none;
+    border-radius: 5px;
+}

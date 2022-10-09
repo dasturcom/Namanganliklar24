@@ -1,0 +1,61 @@
+.section4 {
+}
+.section4Container {
+}
+.section4Title {
+    @include wight(198px, 100%);
+    @include fonts(normal, 500, 20px, 24px);
+}
+.section4Box {
+    margin-bottom: 18px;
+    display: flex;
+    // align-items: center;
+    transition: all 0.3s linear;
+}
+.section4Box:hover {
+    border-radius: 5px;
+    box-shadow: 0px 0px 50px 5px rgba(159, 159, 159, 0.344);
+}
+.section4Box-img {
+    @include WightHeight (252px, 143px);
+    @include reset-list;
+}
+.section4Div{
+    cursor: pointer;
+    margin-left: 19px;
+}
+.section4Box-title {
+    @include reset-list;
+    @include fonts (normal, 500, 17px, 20px);
+    @include wight (100%, 434px);
+    margin-bottom: 8px;
+}
+.section4Box-text {
+    @include reset-list;
+    @include fonts (normal, 400, 15px, 18px);
+    @include wight (100%, 512px);
+    color: $colorText;
+    margin-bottom: 12px;
+}
+i {
+    color: $colorDays;
+}
+.section4Box-days {
+    @include reset-list;
+    @include fonts (normal, 400, 14px, 17px);
+    color: $colorDays;
+}
+
+.section4Btn {
+    @include reset-list;
+    @include fonts (normal, 500, 17px, 20px);
+    padding: 10px 31px;
+    margin-left: 25%;
+    margin-top: 28px;
+    margin-bottom: 48px;
+    cursor: pointer;
+    border: none;
+    color: $bgColor;
+    background: #295093;
+    border-radius: 5px;
+}

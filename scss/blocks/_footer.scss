@@ -1,0 +1,72 @@
+.footer {
+    background-color: $colorLogo;
+    color: $bgColor;
+}
+.footerContainer {
+}
+.footerDiv-link {
+    height: 38px;
+    align-items: center;
+    padding-top: 18px;
+    display: flex;
+}
+.footer-logo {
+    text-decoration: none;
+    background-color: #133C82;
+    padding: 11px 9px;
+    border-radius: 5px;
+    color: $bgColor;
+    @include fonts(normal, 700, 16px, 19px);
+    margin-right: auto;
+}
+.footer-p {
+    @include fonts(normal, 500, 14px, 17px)
+}
+.footer-box {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #133C82;
+    background-color: $bgColor;
+    margin-left: 17px;
+    @include fonts(normal, 500, 14px, 17px);
+}
+.footer-box img {
+    margin-right: 6px;
+}
+.footerSpan {
+    @include reset-list;
+    width: 1200px;
+    height: 3px;
+    display: block;
+    background: #133C82;
+    margin-top: 30px;
+}
+.footerDiv {
+    display: flex;
+}
+.footerBox {
+    width: 365px;
+    margin-right: 111px;
+    @include fonts(normal, 500, 14px, 17px);
+}
+.footerBox span {
+    display: block;
+    margin-bottom: 10px;
+}
+.footerBox-text {
+}
+.footerDiv1 {
+    margin-top: 15px;
+    margin-right: 115px;
+}
+.footerText {
+    @include reset-list;
+    margin-bottom: 10px;
+    @include fonts(normal, 500, 14px, 17px);
+}
+.footerDiv2 {
+    margin-top: 15px;
+}

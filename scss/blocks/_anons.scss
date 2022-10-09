@@ -1,0 +1,42 @@
+.anons {
+}
+.anonscontainer {
+    width: 386px;
+    height: 542px;
+    background: #F6F6F9;
+    border-radius: 5px;
+    margin-top: 46px;
+}
+.container {
+}
+.anonsBox {
+    padding: 16px 20px 0;
+}
+.anonsBox-title {
+    @include reset-list;
+    @include fonts (normal, 500, 20px, 24px);
+}
+.anonsBox-text {
+    @include reset-list;
+    @include fonts (normal, 400, 17px, 20px);
+    width: 347px;
+    margin-top: 6px;
+    margin-bottom: 11px;
+}
+.anonsBoxSpan {
+    display: block;
+    margin-top: 10px;
+    width: 346px;
+    height: 4px;
+    background-color: #E4E4E4;
+}
+
+.box{
+    display: flex;
+}
+
+.anons-img {
+    width: 386px;
+    height: 477px;
+    margin-top: 25px;
+}
